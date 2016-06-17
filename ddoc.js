@@ -204,7 +204,7 @@ ddoc.validate_doc_update = function(newDoc, oldDoc, userCtx) {
         return;
     } else {
         throw ({
-            forbidden: 'Only admins and editors may edit the documents'
+            forbidden: 'Only admins and editors may update documents'
         });
     }
 

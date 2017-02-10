@@ -200,6 +200,12 @@ ddoc.views.relations_with_filters = {
 
 ddoc.validate_doc_update = function(newDoc, oldDoc, userCtx) {
 
+    if (userCtx.roles.indexOf('_admin') == -1 && userCtx.roles.indexOf('admin') == -1 && userCtx.roles.indexOf('editor') == -1) {
+        throw ({
+            forbidden: 'Only admins and editors may update documents'
+        });
+    }
+
     // Don't validate documents being deleted
     if (newDoc._deleted) {
         return;

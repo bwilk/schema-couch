@@ -1,5 +1,5 @@
 {
-  "name": "schema-couch",
+  "name": "schema-couch-roles",
   "version": "0.0.2",
   "description": "Using json-schemas, make a pretty decent couch api. Relationships (and batteries) included.",
   "main": "index.js",
@@ -22,12 +22,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/ryanramage/schema-couch.git"
+    "url": "http://github.com/bwilk/schema-couch.git"
   },
   "maintainers": [
     {
-      "name": "Ryan Ramage",
-      "web": "https://github.com/ryanramage"
+      "name": "Bartosz Wilk",
+      "web": "https://github.com/bwilk"
     }
   ],
   "devDependencies": {

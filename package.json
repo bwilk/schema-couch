@@ -1,6 +1,6 @@
 {
   "name": "schema-couch-roles",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "Using json-schemas, make a pretty decent couch api. Relationships (and batteries) included.",
   "main": "index.js",
   "scripts": {

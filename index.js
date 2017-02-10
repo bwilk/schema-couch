@@ -2,7 +2,7 @@ var fs = require('fs'),
     path = require('path'),
     couchapp = require('couchapp'),
     rewrites = require('./rewrites'),
-    request  = require('./node_modules/couchapp/node_modules/request');
+    request  = require('request');
 
 module.exports = function(schema_dir, dbPath, loaded_callback, pushed_callback) {
 
